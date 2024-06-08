@@ -1,0 +1,728 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color:rgb(114, 111, 111);
+}
+
+body{
+    background-image: url("img/fondo.png");
+}
+
+.contenedor_home{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.005), rgba(255, 255, 255, 0.005)), url("img/fondo.png");
+    background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; 
+}
+
+.header_home{
+    height: 12%;
+    background: rgba(236, 232, 232, 0.957);
+    border-bottom: 0.1px solid #afafaf;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5px;
+}
+
+.header_home1{
+    display: flex;
+}
+
+.header_home2{
+    display: flex;
+}
+.header_home11{
+    height: 100%;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img_logo{
+    height: 100%;
+    background-size: cover;
+    border-radius: 4px;
+    border: 1px solid blue;
+    margin: 1px;
+}
+
+.img_logo > img {
+    height: 100%;
+}
+
+.header_home11{
+    margin: 0px 10px;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.header_concesionarios{
+    margin-right: 50px;
+}
+.header_search{
+    font-size: 25px;
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.header_consecionarios_icon{
+    margin-right: 12px;
+}
+
+.arrow{
+    position: relative;
+    top: 1px;
+    margin-left: 3px;
+    font-size: 15px;
+}
+
+.contenedor_cards_general{
+    height: 0.001%;
+    transition: height 0.3s ease;
+
+}
+/*.contenedor_cards_vehiculos,*/
+.contenedor_cards_vehiculos, .contenedor_cards_asistencia,
+ .contenedor_cards_servicios, .contenedor_cards_buscar{
+    display: none;
+}
+
+.cont_vehiculos_header{
+    height: 22%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cont_vehiculos_header > div{
+    height: 100%;
+    width: 12.25%;
+    background: rgb(229, 229, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 0.1px solid #afafaf;
+    border-bottom: 0.1px solid #afafaf;
+    border-right: 0.1px solid #afafaf;
+}
+
+.cont_etiqueta_Automoviles:hover, .cont_etiqueta_Camionetas:hover, .cont_etiqueta_Deportivos:hover,
+.cont_etiqueta_Electricos:hover, .cont_etiqueta_Vans:hover, .cont_etiqueta_Motocicletas:hover,
+.cont_etiqueta_Buses:hover, .cont_etiqueta_Camiones:hover,
+.cont_etiqueta_principal_Automoviles:hover, .cont_etiqueta_principal_Camionetas:hover, .cont_etiqueta_principal_Deportivos:hover,
+.cont_etiqueta_principal_Electricos:hover, .cont_etiqueta_principal_Vans:hover, .cont_etiqueta_principal_Motocicletas:hover,
+.cont_etiqueta_principal_Buses:hover, .cont_etiqueta_principal_Camiones:hover{
+    background: rgb(255, 255, 255);
+color: black !important;
+font-weight: bold;
+}
+
+
+.cont_etiqueta_Automoviles, .cont_etiqueta_Camionetas, .cont_etiqueta_Deportivos,
+.cont_etiqueta_Electricos, .cont_etiqueta_Vans, .cont_etiqueta_Motocicletas,
+.cont_etiqueta_Buses, .cont_etiqueta_Camiones{
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.cont_etiqueta_principal{
+    background: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.classHover{
+    background: white !important;
+    border-bottom: white !important;
+    border-right: 0.1px solid #afafaf;
+}
+
+.classHover2{
+border-bottom: solid 3px rgb(110, 142, 224);
+}
+
+.cont_etiqueta_principal_Camiones, #cont_etiqueta_principal_llamada, #cont_etiqueta_principal_gps{
+    border-right:  0.1px solid #afafaf;
+}
+
+.cont_vehiculos_header > div > div {
+    font-size: 1.4vw;
+}
+.header_home a {
+    font-size: 22px;
+}
+.ctr_contenido_vehiculo{
+    width: 98%;
+    min-height: 60%;
+    margin-left: 1%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid rgb(105, 100, 100);
+}
+
+.ctr_columna, #contenedor_detalle_ordenes{
+    height: 92%;
+    width: 100%;
+    margin: 0 4px 4px 4px;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor_detalle_ordenes > div{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+
+}
+
+
+
+.ctr_posicion_elemento{
+    height: 18px;
+    width: 98%;
+    background: white;
+    display: flex;
+    justify-content: center;
+
+}
+.ctr_posicion_elemento > div{
+    margin: 2px 8px;
+}
+
+.ctr_posicion_elemento > div > i{
+    font-size: 25px;
+}
+
+.tjt_car{
+
+    height: 70%;
+    margin-left: 3%;
+    margin-top: 30px;
+    background: white;
+    background-image: src("https://www.carroya.com/noticias/sites/default/files/carros_comprar_bogota_carroya.webp");
+    display: flex;
+    justify-content: space-between;
+}
+
+#img_card_car{
+    width: 55%;
+    margin-top: 50px;
+}
+
+.d_descripciones_car{
+    width: 400px;
+    height: 400px;
+    margin-left: 1%;
+    background: rgb(247, 242, 252);
+    border: solid 1px rgb(120, 118, 118);
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px rgb(120, 118, 118);
+}
+
+.titulo_card_car > h1{
+    font-size: 30px;
+    color: black;
+}
+.titulo_card_car{
+    margin: 8px 5px 8px 5px;
+    font-size: 1.5vw;
+    color: black;
+}
+
+
+.d_contenedor_tranmision, .d_contenedor_capacidad, .d_contenedor_ubicacion,
+.d_contenedor_disponibilidad{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.icon_transmision, .icon_capacidad, .icon_ubicacion, .icon_disponibilidad{
+    width: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+
+}
+.icon_capacidad > i, .icon_ubicacion > i, .icon_disponibilidad > i {
+    color: black;
+    font-size: 25px;
+}
+.d_descripcion_car{
+    margin: 8px;
+    color: black;
+}
+
+.p_transmision, 
+.p_capacidad, .p_ubicacion, .p_disponibilidad > a{
+    font-size: 18px;
+    color: black;
+}
+.p_disponibilidad > a{
+    text-decoration: underline !important;
+}
+
+.d_cotizar_dias{
+    margin: 8px 2%;
+    width: 96%;
+    padding-right: 4px;
+    background: rgb(247, 242, 252);
+
+    border-radius: 3px;
+    border: solid 1px rgb(218, 215, 215);
+    box-shadow: 1px 1px 1px rgb(218, 215, 215);
+    display: flex;
+}
+
+.d_compartir_agregar{
+    margin: 12px 2%;
+    width: 96%;
+    background: rgb(247, 242, 252);
+    height: 5%;
+    display: flex;
+    justify-content: end;
+}
+
+.d_cotizar_dias > div:nth-child(1){
+    margin-top: 4px;
+    width: 50%;
+    height: 90%;
+    background: rgb(247, 242, 252);
+}
+
+.d_cotizar_dias > div:nth-child(2){
+    margin-top: 4px;
+    width: 50%;
+    height: 90%;
+    background: rgb(247, 242, 252);
+}
+
+.d_cotizar_dias > div > h3{
+    color: black;
+    font-size: 18px;
+    margin-top: 16px;
+    margin-left: 5%;
+}
+
+.d_cotizar_dias > div > input{
+    margin-top:4px;
+    margin-left: 5%;
+    color: black;
+    width: 80%;
+    height: 30%;
+    font-size: 1.5vw;
+    border-radius: 4px;
+    border: 1px solid rgb(218, 215, 215);
+}
+
+.ctr_cotizacion_dias{
+    text-align: end;
+    color: black;
+
+}
+
+.ctr_cotizacion_dias2{
+padding-top: 8px;
+text-align: end;
+}
+
+.ctr_cotizacion_dias2 h4, .ctr_cotizacion_dias2 a{
+    color: black;
+}
+
+.ctr_cotizacion_dias2 > h4:nth-child(3){
+    font-size: 20px;
+}
+
+.ctr_cotizacion_dias2 > h4:nth-child(4){
+    color: green;
+    font-size: 13px;
+
+}
+
+.d_compartir_agregar > div{
+    margin: 3px 3%;
+}
+
+.d_compartir_agregar > div > i{
+    color: black;
+    font-size: 1.5vw;
+}
+
+.cont_arrow{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cont_arrow > i{
+font-size: 40px;
+}
+.class_servicios{
+    width: 15% !important;
+    padding:8px;
+}
+.cont_busqueda{
+    margin-top: 20px;
+    width: 100%;
+    height: 90%;
+    background: white;
+}
+
+.d_inp_busqueda{
+    width: 90%;
+    margin-left: 5%;
+    height: 20%;
+    background: white;
+    display: flex;
+}
+
+.d_inp_busqueda > div:nth-child(1){
+    width: 90%;
+    height: 100%;
+    background: white;
+}
+.d_inp_busqueda > div:nth-child(1) > input{
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    padding: 8px;
+}
+
+.d_inp_busqueda > div:nth-child(1) > input:focus{
+    outline: none !important;
+}
+
+.d_inp_busqueda > div:nth-child(2){
+    width: 10%;
+    background: rgb(70, 68, 68);
+}
+
+.d_inp_busqueda > div {
+    text-align: center;
+}
+.d_inp_busqueda > div > i {
+    font-size: 250%;
+    height: auto;
+    color: white;
+    font-weight: 900;
+}
+
+.cont_btn_search{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.d_frecuentes_centro_ayuda{
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 5%;
+    background: white;
+    height: 60%;
+    display: flex;
+}
+
+.d_frecuentes_centro_ayuda > div:nth-child(1){
+    margin-top: 40px;
+    width: 50%;
+    background: white;
+    height: 100%;
+    display: flex;
+    color: black;
+    flex-direction: column;
+}
+
+.d_frecuentes_centro_ayuda > div:nth-child(1) > h2, .d_frecuentes_centro_ayuda > div:nth-child(1) > h3,
+.d_frecuentes_centro_ayuda > div:nth-child(2) > h2, .d_frecuentes_centro_ayuda > div:nth-child(2) > h3{
+    color: rgb(114, 111, 111);
+    margin-top: 16px;
+}
+.d_frecuentes_centro_ayuda > div:nth-child(1) > h3{
+    text-decoration: underline;
+}
+.d_frecuentes_centro_ayuda > div:nth-child(2){
+    margin-top: 40px;
+    width: 50%;
+    background:white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.ctr_centro_ayuda{
+    width: 100%;
+    height: 140px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.d_frecuentes_centro_ayuda_int2 h2{
+margin-left: 0 !important;
+}
+
+.btn_centro_contacto{
+    width: 40%;
+    height: 100%;
+    background: rgb(247, 242, 252);
+    border: solid 1px rgb(218, 215, 215);
+    box-shadow: 1px 1px 1px rgb(218, 215, 215);
+    text-align: center;
+    justify-content: center;
+}
+.cont_logo_centro{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.d_frecuentes_centro_ayuda_int2 > h1{
+    margin-left: 0px !important;
+}
+
+.d_frecuentes_centro_ayuda_int1 h3{
+    margin: 8px
+
+}
+
+.d_inp_filtros{
+    margin-top: 10px;
+}
+
+
+
+
+
+.container_carros_galeria{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 5px;
+    padding: 4px;
+    text-align: center;
+}
+
+.d_inp_filtros{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carros{
+    margin: 10px;
+}
+.carros p {
+    display: inline;
+}
+
+.carros > div p:nth-child(1) {
+    font-weight: bold;
+    color: black;
+}
+
+
+
+.contenedor_cards_vehiculos{
+    height: 88%;
+}
+
+.cont_op_adcional{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#cant_dias{
+    width: 40px;
+}
+
+.d_cotizar_dias{
+    padding-bottom: 8px;
+}
+
+.cont_op_adcional input[type="checkbox"]{
+    width:25px;
+    border-radius: 25px !important;
+}
+#precio_articulo_res{
+
+}
+
+#cont_reservas{
+
+}
+
+
+.item_general_reserva{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item_reserva{
+
+    display: flex;
+    width: 100% !important;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.item_reserva2{
+ 
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.item_reserva3{
+ 
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0;
+    margin-right: 5px;
+}
+
+.item_reserva4{
+ 
+    display: flex;
+    width: 100% !important;
+    justify-content: end;
+    margin: 3px 0;
+    margin-right: 5px;
+}
+
+.item_card{
+  
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.cont_card_ordenes{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 2px 2px rgba(122, 114, 114, 0.957);
+}
+
+.cont_card_ordenes div:nth-child(1){
+    width: 45%;
+}
+
+.cont_card_ordenes div:nth-child(1)  img{
+    width: 100%;
+    
+}
+
+.cont_card_ordenes_info{
+    display: flex;
+    flex-direction: column;
+    border: solid 0.5px rgba(238, 222, 222, 0.957);
+    box-shadow: 2px 2px 2px rgba(122, 114, 114, 0.957);
+    border-radius: 2px;
+    padding: 4px 12px 4px 12px;
+}
+
+.cont_card_ordenes_info{
+    width: 65%;
+}
+
+.item_reserva > div > label:nth-child(1){
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.titulo_info_reserva{
+    
+}
+
+
+.titulo_car_reserva_2{
+    width: 65% !important;
+    font-size: 25px;
+    color: black;
+    font-weight: bold
+    ;
+    
+}
+
+.titulo_car_reserva_3{
+    width: 35% !important;
+    font-size: 22px;
+    color: rgb(48, 138, 52);
+    text-align: end;
+    font-weight: bold
+}
+
+.titulo_car_reserva_4{
+    width: 65% !important;
+    ;
+    
+}
+
+.titulo_car_reserva_5{
+    width: 35% !important;
+}
+
+.btn_eliminar_item_solicitudes{
+    font-weight: bold;
+    background: black;
+    color: white;
+    border-radius: 4px;
+    padding: 3px 6px;
+}
+.item_reserva_total{
+    justify-content: space-between;
+    margin: 5px 25%;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    display: none;
+}
+
+.item_reserva_total label{
+    color: black;
+    font-size: 30px;
+}
+
+.item_reserva_total > :nth-child(2) > label{
+    color: rgb(48, 138, 52);
+    font-size: 30px;
+}
+
+#btn_confirmar_orden{
+    display: none;
+}
+
+.cont_card_ordenes_info_reservas > div{
+    width: 100%;
+}
+
+.btn_vista_ordenes{
+    background: transparent;
+    border: none;
+    color: black;
+}
+.cont_card_ordenes_info_reservas > div div{
+    text-align: center;
+}
+
+.cont_vehiculos_header{
+    background: white;
+    width: 98%;
+    margin-left: 1%;
+}

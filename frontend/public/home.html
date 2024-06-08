@@ -1,0 +1,342 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_home.css">
+    <script src="app_home.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+    <div class="contenedor_home">
+        <div class="header_home">
+            <div class="header_home1">
+                <div class="header_home_logo">
+                    <div class="img_logo"><img src="img/logo.png" alt=""></div>
+                </div>
+                <div class="header_home11" id="btn_vehiculos">
+                    <h3><a>Vehiculos</a><i id="i_vehiculos" class="bi bi-caret-down-fill arrow"></i></h3>
+                </div>
+                <div class="header_home11" id="btn_asistencia">
+                    <h3><a>Reservas</a><i id="i_asistencia" class="bi bi-caret-down-fill arrow"></i></h3>
+                </div>
+                <div class="header_home11" id="btn_servicios">
+                    <h3><a>¿Quienes somos?</a><i id="i_servicios" class="bi bi-caret-down-fill arrow"></i></h3>
+                </div>
+            </div>
+            <div class="header_home2">
+                <div class="header_home11" id="btn_buscar">
+                    <h3><a class="header_search"><i class="bi bi-search"></i><a>Buscar</a><i id="i_buscar"
+                                class="bi bi-caret-down-fill arrow"></i></h3>
+                </div>
+                <div class="header_home11 header_concesionarios" id="btn_concesionarios">
+                    <h3><i class="bi bi-geo-alt-fill header_consecionarios_icon">
+                        </i><a>Concesionarios</a></h3>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor_cards_general">
+            <div class="contenedor_cards_vehiculos">
+                <div class="cont_vehiculos_header">
+                    <div class="cont_etiqueta_principal_Automoviles" id="cont_etiqueta_principal_Automoviles">
+                        <div class="cont_etiqueta_Automoviles">Automoviles</div>
+                    </div>
+                    <div class="cont_etiqueta_principal_Camionetas" id="cont_etiqueta_principal_Camionetas">
+                        <div class="cont_etiqueta_Camionetas">Camionetas</div>
+                    </div>
+                    <div class="cont_etiqueta_principal_Deportivos" id="cont_etiqueta_principal_Deportivos">
+                        <div class="cont_etiqueta_Deportivos">Deportivos</div>
+                    </div>
+
+                </div>
+                <div class="ctr_contenido_vehiculo">
+                    <div class="ctr_columna">
+                        <div class="tjt_car">
+                            <div class="cont_arrow"><i id="btn_arrow_back" class="bi bi-caret-left"></i></div>
+                            <img id="img_card_car"
+                                src="https://www.carroya.com/noticias/sites/default/files/carros_comprar_bogota_carroya.webp"
+                                alt="">
+                            <div class="d_descripciones_car">
+                                <div class="titulo_card_car">
+                                    <h1 id="titulo_articulo">Titulo Chevrolet i34</h1>
+                                </div>
+                                <div class="d_descripcion_car">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Eveniet,
+                                    voluptatem.</div>
+                                <div class="d_contenedor_tranmision">
+                                    <div class="icon_transmision"><svg xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M1.5 6.75v-3a.75.75 0 0 0-1.5 0v3a.75.75 0 0 0 1.5 0m2.85-.45-2.25-3a.75.75 0 1 0-1.2.9l2.25 3a.75.75 0 1 0 1.2-.9m18.9 13.95h-3L21 21v-.75A2.25 2.25 0 0 1 23.25 18l-.75-.75v6a.75.75 0 0 0 1.5 0v-6a.75.75 0 0 0-.75-.75 3.75 3.75 0 0 0-3.75 3.75V21c0 .414.336.75.75.75h3a.75.75 0 0 0 0-1.5M18.024 2.056A.75.75 0 1 1 18.75 3v1.5a.75.75 0 1 1-.722.95.75.75 0 1 0-1.446.4A2.25 2.25 0 1 0 18.75 3c-1 0-1 1.5 0 1.5a2.25 2.25 0 1 0-2.174-2.832.75.75 0 0 0 1.448.388M12 18.75a.75.75 0 0 1 1.5 0c0 .315-.107.622-.304.868l-2.532 3.163A.75.75 0 0 0 11.25 24h3a.75.75 0 0 0 0-1.5h-3l.586 1.219 2.532-3.164c.41-.513.632-1.15.632-1.805a2.25 2.25 0 0 0-4.5 0 .75.75 0 0 0 1.5 0M8.25 1.5H9v5.25a.75.75 0 0 0 1.5 0V1.5A1.5 1.5 0 0 0 9 0h-.75a.75.75 0 0 0 0 1.5m0 6h3a.75.75 0 0 0 0-1.5h-3a.75.75 0 0 0 0 1.5m-6-7.5H.75A.75.75 0 0 0 0 .75v3c0 .414.336.75.75.75h1.5a2.25 2.25 0 0 0 0-4.5m0 1.5a.75.75 0 0 1 0 1.5H.75l.75.75v-3l-.75.75zm8.25 11.25v-3a.75.75 0 0 0-1.5 0v3a.75.75 0 0 0 1.5 0m1.5 0v1.5a.75.75 0 0 0 1.5 0v-1.5a.75.75 0 0 0-1.5 0m7.5 0v-3a.75.75 0 0 0-1.5 0v3a.75.75 0 0 0 1.5 0m3 1.5A2.25 2.25 0 0 0 20.25 12h-15A2.25 2.25 0 0 1 3 9.75a.75.75 0 0 0-1.5 0 3.75 3.75 0 0 0 3.75 3.75h15a.75.75 0 0 1 .75.75.75.75 0 0 0 1.5 0">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <p class="p_transmision">Manual</p>
+                                </div>
+
+                                <div class="d_contenedor_capacidad">
+                                    <div class="icon_capacidad"><i class="bi bi-people"></i>
+                                    </div>
+                                    <p class="p_capacidad">4 Personas</p>
+                                </div>
+
+                                <div class="d_contenedor_ubicacion">
+                                    <div class="icon_ubicacion"><i class="bi bi-pin-map-fill"></i>
+                                    </div>
+                                    <p id="ubicacion_articulo" class="p_ubicacion">Medellín, Antioquia</p>
+                                </div>
+
+                                <div class="d_contenedor_disponibilidad">
+                                    <div class="icon_disponibilidad"><i class="bi bi-calendar-week"></i>
+                                    </div>
+                                    <p class="p_disponibilidad"><a href="">Disponible para tomar ahora</a></p>
+                                </div>
+
+                                <div class="d_cotizar_dias">
+                                    <div>
+                                        <div class="cont_op_adcional"><label for="">Conductor privado:</label><input
+                                                id="pref_cp" type="checkbox"></div>
+                                        <div class="cont_op_adcional"><label for="">Silla para bebe:</label><input
+                                                id="pref_sb" type="checkbox"></div>
+                                        <div class="cont_op_adcional"><label for="">Seguro extendido:</label><input
+                                                id="pref_se" type="checkbox"></div>
+                                        <div class="cont_op_adcional"><label for="">Dias:</label><input id="cant_dias"
+                                                type="number" min="1" value="1"></div>
+
+                                    </div>
+                                    <div class="ctr_cotizacion_dias2">
+                                        <h4 id="precio_articulo_res">$25</h4>
+                                        <h4>Precio por <a id="dis_cantidad">1</a> <a id="dis_dias">día:</a></h4>
+                                        <h4 id="precio_articulo">$250.000</h4>
+                                        <h4>Cancelación gratuita</h4>
+                                    </div>
+                                </div>
+
+                                <div class="d_compartir_agregar">
+                                    <div><i class="bi bi-whatsapp"></i></div>
+                                    <div id="agregar_carro"><i class="bi bi-plus-circle-fill"></i></div>
+                                </div>
+                            </div>
+
+
+                            <div class="cont_arrow"><i id="btn_arrow_next" class="bi bi-caret-right"></i></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="contenedor_cards_servicios">
+                <div class="cont_vehiculos_header">
+                    <div class="cont_etiqueta_principal_Automoviles class_servicios"
+                        id="cont_etiqueta_principal_alquiler">
+                        <div class="cont_etiqueta_Automoviles">Alquiler de vehiculos</div>
+                    </div>
+                    <div class="cont_etiqueta_principal_Camionetas class_servicios"
+                        id="cont_etiqueta_principal_transporte">
+                        <div class="cont_etiqueta_Camionetas">Transporte escolar y empresarial</div>
+                    </div>
+                    <div class="cont_etiqueta_principal_Motocicletas class_servicios" id="cont_etiqueta_principal_gps">
+                        <div class="cont_etiqueta_Motocicletas">Seguimiento GPS</div>
+                    </div>
+
+                    <div class="cont_etiqueta_principal_Deportivos class_servicios" id="cont_etiqueta_principal_grua">
+                        <div class="cont_etiqueta_grua">Servicio de grua / Taller</div>
+                    </div>
+                    
+                </div>
+                <div class="ctr_contenido_vehiculo">
+                    <div class="ctr_columna">
+                        <div class="tjt_car">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenedor_cards_asistencia">
+                <div class="cont_vehiculos_header">
+                    <div class="cont_etiqueta_principal_Automoviles" id="cont_etiqueta_principal_solicitudes">
+                        <div class="cont_etiqueta_Automoviles">Solicitudes</div>
+                    </div>
+                    <div class="cont_etiqueta_principal_Camionetas" id="cont_etiqueta_principal_ordenes">
+                        <div class="cont_etiqueta_Camionetas">Ordenes</div>
+                    </div>
+
+                </div>
+                <div class="ctr_contenido_vehiculo" id="cont_reservas">
+                    <div class="ctr_columna">
+                        <div class="tjt_car item_general_reserva" id="contenedor_ordenes">
+                            <div class="item_card cont_card_ordenes">
+                                <div class="cont_card_ordenes_img">
+                                    <img src="https://assets.static-gm.com/Assets/925e467e-b354-4c6a-bee7-094286fb63d9/3107d069-ec8a-4fbf-b72b-9467d6b78b53/v-1679523132/Desktop.webp" alt="">
+                                </div>
+                                <div class="cont_card_ordenes_info">
+                                    <div class="item_reserva4">
+                                        <button>Cancelar</button>
+                                    </div>
+
+                                    <div class="item_reserva">
+                                        <div>Titulo</div>
+                                        <div>Precio</div>
+                                    </div>
+
+                                    <div class="item_reserva">
+                                        <div><label for="">Precio por día:</label><label for="">10000</label></div>
+                                        <div><label for="">Conductor:</label><label for="">No</label></div>
+                                    </div>
+                                    <div class="item_reserva">
+                                        <div><label for="">Seguro:</label><label for="">Si</label></div>
+                                        <div><label for="">Silla:</label><label for="">Si</label></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+
+
+                    </div>
+                    <div class="tjt_car item_general_reserva" id="contenedor_detalle_ordenes">
+
+                    </div>
+                    <div class="item_reserva_total">
+                        <div><label for="">Total:</label></div><div><label id="lb_total_orden" for="">12423593465</label></div>
+                    </div>
+                    <div class="item_reserva3">
+                        <button class="btn_eliminar_item_solicitudes" id="btn_confirmar_orden">Confirmar</button>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="contenedor_cards_buscar">
+
+                <div class="ctr_contenido_vehiculo">
+                    <div class="ctr_columna">
+                        <div class="tjt_car">
+                            <div class="cont_busqueda">
+                                <div class="d_inp_busqueda">
+                                    <div><input type="text" id="input_busqueda_cars"></div>
+                                    <div id="cont_btn_search" class="cont_btn_search"><i class="bi bi-search"></i></div>
+                                </div>
+                                <div class="d_inp_filtros d_inp_busqueda">
+                                    <div>
+                                        <label for="filtros">Filtros disponibles:</label>
+                                        <select id="filtros" name="filtros">
+                                            <option value="-">-</option>
+                                            <option value="tipo">Tipo</option>
+                                            <option value="color">Color</option>
+                                            <option value="modelo">Modelo</option>
+                                            <option value="marca">Marca</option>
+                                            <option value="precio">Precio</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="d_frecuentes_centro_ayuda">
+                                    <div class="d_frecuentes_centro_ayuda_int1">
+                                        <h2>BÚSQUEDAS FRECUENTES</h2>
+                                        <br>
+                                        <h3>Solicitar cotización</h3>
+                                        <h3>Agendar mantenimiento / Reparación</h3>
+                                        <h3>Concesionarios</h3>
+                                    </div>
+                                    <div class="d_frecuentes_centro_ayuda_int2">
+                                        <h2>CENTRO DE AYUDA</h2>
+                                        <br>
+                                        <div class="ctr_centro_ayuda">
+                                            <div class="btn_centro_contacto">
+                                                <div class="cont_logo_centro" style="height: 70%; background: white;">
+                                                    <img style="height: 35px; width: 35px;"
+                                                        src="https://www.chevrolet.com.co/content/dam/chevrolet/south-america/colombia/espanol/primary-navigation-icons/nav-contact.svg"
+                                                        alt="">
+                                                </div>
+                                                <div>Llamar a contact center</div>
+                                            </div>
+                                            <div class="btn_centro_contacto">
+                                                <div class="cont_logo_centro" style="height: 70%; background: white;">
+                                                    <img style="height: 25px; width: 25px;"
+                                                        src="https://www.chevrolet.com.co/content/dam/chevrolet/south-america/colombia/espanol/index/index-subcontent/32-images/chevrolet-whatsapp.png"
+                                                        alt="">
+                                                </div>
+                                                <div>Servicio al cliente</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div id='container_carros_galeria' class="container_carros_galeria">
+                                    <!--<div class="carros">
+                                    <img style="height: 100px;" src="" alt="">
+                                    <div><p>Tipo: </p> <p></p></div>
+                                    <div><p>Color: </p> <p></p></div>
+                                    <div><p>Modelo: </p> <p></p></div>
+                                    <div><p>Marca: </p> <p></p></div>
+                                    <div><p>Precio: </p> <p></p></div>
+                                </div>
+                                </div>-->
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div id="publicaciones">
+        <div style="background: transparent; width: 80%; height: 22%; margin-left: 10%; margin-top: 4%; display: flex;">
+            
+            <div style="width: 100%; background: transparent; color: white">
+                <h1 style="text-align: center; color: white; margin-top: 4px; text-align: center; padding: 8px; font-size: 90px; color:white">Bienvenido a GPAccess Car  </h1>
+                <h2 style="text-align: center; margin-top: 10px; color: rgb(37, 35, 35); text-align: center; padding: 8px; font-size: 40px; color:white;">tienes a tu disposición todos nuestros servicios a tan solo un click!</h2>
+            </div>
+        </div>
+
+        <div style="background: transparent; width: 80%; height: 40%; margin-left: 10%; margin-top: 7%; display: flex;">
+
+            <div style="width: 30%; margin-right: 5%; background: rgba(255, 255, 255, 0.9); padding-top: 20px;">
+                <h1 style="text-align: center; color: black; margin-top: 4px; text-align: center; padding: 8px">¿En busca de experiencias inigualables?</h1>
+                <h2 style="text-align: center; margin-top: 10px; color: black; text-align: center; padding: 8px;">
+                    En la sescción de vehiculos podrás encontrar una amplia variedad para tus diferentes necesidades, con solo unos 
+                    cuantos clicks lo tendrás en la puerta de tu casa o en el lugar que lo necesites.</h2>
+            </div>
+           
+            <div style="width: 30%; margin-right: 5%; background: rgba(255, 255, 255, 0.9); padding-top: 20px;">
+                <h1 style="text-align: center; color: black; margin-top: 4px; text-align: center; padding: 8px;">¿Buscas un aliado estratégico para tus rutas?</h1>
+                <h2 style="text-align: center; margin-top: 10px; color: black; text-align: center; padding: 8px;;">Te ofrecemos soluciones 
+                    personalizadas para tus necesidades logísticas. Desde planificación de rutas hasta seguimiento 
+                    en tiempo real.
+                    ¡Descubre cómo podemos potenciar tu negocio y simplificar tus operaciones! </h2>
+            
+            </div>
+
+            <div style="width: 30%; ; background: rgba(255, 255, 255, 0.9); padding-top: 20px;">
+                <h1 style="text-align: center; color: black; margin-top: 4px; text-align: center; padding: 8px;">¿Tu vehiculo está presentando problemas y no sabes que hacer?</h1>
+                <h2 style="text-align: center; margin-top: 10px; color: black; text-align: center; padding: 8px;;">¡Descubre nuestros servicios de asistencia en carretera, grúa y taller! No dejes que los problemas con tu vehículo detengan tus planes. ¡Confía en nosotros para seguir adelante!</h2>
+            
+            </div>
+        </div>
+
+    </div>
+
+
+    <input style="display: none;" type="text" id="messageInput" placeholder="Type a message..." />
+    <button style="display: none;" id="enviar_alerta" onclick="sendMessage()">Send</button>
+    <div id="messages"></div>
+
+</body>
+
+</html>
